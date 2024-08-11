@@ -1,51 +1,74 @@
-//===========================================================================
-//
-// Name:			grunt_i.c
-// Function:		
-// Programmer:		Mr Elusive (MrElusive@idsoftware.com)
-// Last update:		1999-09-08
-// Tab Size:		4 (real tabs)
-//===========================================================================
+/*
+===========================================================================
+Copyright (C) 2006 Dmn_clown (aka: Bob Isaac (rjisaac@gmail.com))
+
+This file is part of Open Arena and is based upon Mr. Elusive's fuzzy logic
+system found in Quake 3 Arena.
+
+Open Arena is free software; you can redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of the License,
+or (at your option) any later version.
+
+Open Arena is distributed in the hope that it will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Foobar; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+===========================================================================
+*/
 
 #include "inv.h"
 
-//initial health/armor states
-#define FS_HEALTH			1
-#define FS_ARMOR			1
+#define FPH				2
+#define FPA				2
 
-//initial weapon weights
-#define W_SHOTGUN				50
-#define W_MACHINEGUN			70
-#define W_GRENADELAUNCHER		40
-#define W_ROCKETLAUNCHER		220
-#define W_RAILGUN				385
-#define W_BFG10K				30
-#define W_LIGHTNING				50
-#define W_PLASMAGUN				50
+#define SGW				200
+#define MGW				100
+#define GLW				150
+#define RLW				350
+#define RGW				200
+#define BFW				450
+#define LGW				200
+#define PGW				250
+#define PXW				350
+#define NGW				150
+#define CGW				200
 
-//the bot has the weapons, so the weights change a little bit
-#define GWW_SHOTGUN				35
-#define GWW_MACHINEGUN			50
-#define GWW_GRENADELAUNCHER		30
-#define GWW_ROCKETLAUNCHER		190
-#define GWW_RAILGUN				325
-#define GWW_BFG10K				41
-#define GWW_LIGHTNING			40
-#define GWW_PLASMAGUN			40
+#define GSGW				150
+#define GMGW				150
+#define GGLW				200
+#define GRLW				300
+#define GRGW				200
+#define GBFW				100
+#define GLGW				250
+#define GPGW				100
+#define GPXW				200
+#define GNGW				100
+#define GCGW				125
 
-//initial powerup weights
-#define W_TELEPORTER			40
-#define W_MEDKIT				40
-#define W_QUAD					80
-#define W_ENVIRO				40
-#define W_HASTE					40
-#define W_INVISIBILITY			40
-#define W_REGEN					40
-#define W_FLIGHT				40
+#define TELW				190
+#define MEDW				50
+#define QW				500
+#define ENVW				50
+#define HAW				50
+#define INW				400
+#define REGW				50
+#define FLW				260
+#define KAMW				200
+#define IBW				150
+#define PORW				300
+#define SCW				100
+#define GUW				200
+#define DUBW				100
+#define AMRW				400
+#define REDCW				200
+#define BLCW				200
 
-//flag weight
-#define FLAG_WEIGHT				50
+#define FGW				400
 
 //
-#include "fw_items.c"
-
+#include "fuzi.c"

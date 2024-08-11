@@ -1,3 +1,25 @@
+/*
+===========================================================================
+Copyright (C) 2006 Dmn_clown (aka: Bob Isaac (rjisaac@gmail.com))
+
+This file is part of Open Arena and is based upon Mr. Elusive's fuzzy logic
+system found in Quake 3 Arena.
+
+Open Arena is free software; you can redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of the License,
+or (at your option) any later version.
+
+Open Arena is distributed in the hope that it will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Foobar; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+===========================================================================
+*/
 
 #include "chars.h"
 
@@ -5,16 +27,16 @@
 skill 1
 {
 	CHARACTERISTIC_NAME							"Player"
-	CHARACTERISTIC_GENDER						"it"
+	CHARACTERISTIC_GENDER						"male"
 	CHARACTERISTIC_ATTACK_SKILL					0.25
-	CHARACTERISTIC_WEAPONWEIGHTS				"bots/daemia_w.c"
+	CHARACTERISTIC_WEAPONWEIGHTS				"bots/gargoyle_w.c"
 	CHARACTERISTIC_AIM_SKILL					0.25
 	CHARACTERISTIC_AIM_ACCURACY					0.25
 	CHARACTERISTIC_VIEW_FACTOR					0.25
 	CHARACTERISTIC_VIEW_MAXCHANGE				90
 	CHARACTERISTIC_REACTIONTIME					3.0
 
-	CHARACTERISTIC_CHAT_FILE					"bots/daemia_t.c"
+	CHARACTERISTIC_CHAT_FILE					"bots/gargoyle_t.c"
 	CHARACTERISTIC_CHAT_NAME					"player"
 	CHARACTERISTIC_CHAT_CPM						400
 	CHARACTERISTIC_CHAT_INSULT					0.5
@@ -36,7 +58,7 @@ skill 1
 	CHARACTERISTIC_WEAPONJUMPING				0.5
 	CHARACTERISTIC_GRAPPLE_USER					0.5
 
-	CHARACTERISTIC_ITEMWEIGHTS					"bots/daemia_i.c"
+	CHARACTERISTIC_ITEMWEIGHTS					"bots/gargoyle_i.c"
 	CHARACTERISTIC_AGGRESSION					0.25
 	CHARACTERISTIC_SELFPRESERVATION				0.5
 	CHARACTERISTIC_VENGEFULNESS					0.25
@@ -64,16 +86,16 @@ skill 1
 skill 4
 {
 	CHARACTERISTIC_NAME							"Player"
-	CHARACTERISTIC_GENDER						"it"
+	CHARACTERISTIC_GENDER						"male"
 	CHARACTERISTIC_ATTACK_SKILL					1.0
-	CHARACTERISTIC_WEAPONWEIGHTS				"bots/daemia_w.c"
+	CHARACTERISTIC_WEAPONWEIGHTS				"bots/gargoyle_w.c"
 	CHARACTERISTIC_AIM_SKILL					1.0
 	CHARACTERISTIC_AIM_ACCURACY					1.0
 	CHARACTERISTIC_VIEW_FACTOR					0.9
 	CHARACTERISTIC_VIEW_MAXCHANGE				240
 	CHARACTERISTIC_REACTIONTIME					1.75
 
-	CHARACTERISTIC_CHAT_FILE					"bots/daemia_t.c"
+	CHARACTERISTIC_CHAT_FILE					"bots/gargoyle_t.c"
 	CHARACTERISTIC_CHAT_NAME					"player"
 	CHARACTERISTIC_CHAT_CPM						400
 	CHARACTERISTIC_CHAT_INSULT					0.1
@@ -95,7 +117,7 @@ skill 4
 	CHARACTERISTIC_WEAPONJUMPING				1.0
 	CHARACTERISTIC_GRAPPLE_USER					1.0
 
-	CHARACTERISTIC_ITEMWEIGHTS					"bots/daemia_i.c"
+	CHARACTERISTIC_ITEMWEIGHTS					"bots/gargoyle_i.c"
 	CHARACTERISTIC_AGGRESSION					1.0
 	CHARACTERISTIC_SELFPRESERVATION				1.0
 	CHARACTERISTIC_VENGEFULNESS					1.0
@@ -123,16 +145,16 @@ skill 4
 skill 5
 {
 	CHARACTERISTIC_NAME							"Player"
-	CHARACTERISTIC_GENDER						"it"
+	CHARACTERISTIC_GENDER						"male"
 	CHARACTERISTIC_ATTACK_SKILL					1.0
-	CHARACTERISTIC_WEAPONWEIGHTS				"bots/daemia_w.c"
+	CHARACTERISTIC_WEAPONWEIGHTS				"bots/gargoyle_w.c"
 	CHARACTERISTIC_AIM_SKILL					1.0
 	CHARACTERISTIC_AIM_ACCURACY					1.0
 	CHARACTERISTIC_VIEW_FACTOR					1.0
 	CHARACTERISTIC_VIEW_MAXCHANGE				360
 	CHARACTERISTIC_REACTIONTIME					0.0
 
-	CHARACTERISTIC_CHAT_FILE					"bots/daemia_t.c"
+	CHARACTERISTIC_CHAT_FILE					"bots/gargoyle_t.c"
 	CHARACTERISTIC_CHAT_NAME					"player"
 	CHARACTERISTIC_CHAT_CPM						400
 	CHARACTERISTIC_CHAT_INSULT					0.1
@@ -154,7 +176,7 @@ skill 5
 	CHARACTERISTIC_WEAPONJUMPING				1.0
 	CHARACTERISTIC_GRAPPLE_USER					1.0
 
-	CHARACTERISTIC_ITEMWEIGHTS					"bots/daemia_i.c"
+	CHARACTERISTIC_ITEMWEIGHTS					"bots/gargoyle_i.c"
 	CHARACTERISTIC_AGGRESSION					1.0
 	CHARACTERISTIC_SELFPRESERVATION				1.0
 	CHARACTERISTIC_VENGEFULNESS					1.0
