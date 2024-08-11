@@ -1,3 +1,7 @@
+// ------------------------------------------------------------
+// Shaders for Q3Rally plates - rewritten by P3rlE
+// based on plates.shader from quake3rally
+// ------------------------------------------------------------
 
 models/players/plates/default
 {
@@ -439,6 +443,38 @@ models/players/plates/eu_greatbritain
 	}
 }
 
+models/players/plates/eu_austria
+{
+	{
+		map models/players/plates/eu_austria.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/eu_croatia
+{
+	{
+		map models/players/plates/eu_croatia.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/eu_france
+{
+	{
+		map models/players/plates/eu_france.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/eu_slowenia
+{
+	{
+		map models/players/plates/eu_slowenia.tga
+		rgbGen lightingdiffuse
+	}
+}
+
 models/players/plates/usa_Abu_Dhabi
 {
 	{
@@ -446,6 +482,7 @@ models/players/plates/usa_Abu_Dhabi
 		rgbGen lightingdiffuse
 	}
 }
+
 
 models/players/plates/usa_alaska_susitna
 {
@@ -467,6 +504,70 @@ models/players/plates/usa_florida
 {
 	{
 		map models/players/plates/usa_florida.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/eu_russia
+{
+	{
+		map models/players/plates/eu_russia.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/eu_belarus
+{
+	{
+		map models/players/plates/eu_belarus.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/eu_kazakhstan
+{
+	{
+		map models/players/plates/eu_kazakhstan.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/eu_ukraine
+{
+	{
+		map models/players/plates/eu_ukraine.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/usa_russia
+{
+	{
+		map models/players/plates/usa_russia.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/usa_belarus
+{
+	{
+		map models/players/plates/usa_belarus.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/usa_kazakhstan
+{
+	{
+		map models/players/plates/usa_kazakhstan.tga
+		rgbGen lightingdiffuse
+	}
+}
+
+models/players/plates/usa_ukraine
+{
+	{
+		map models/players/plates/usa_ukraine.tga
 		rgbGen lightingdiffuse
 	}
 }

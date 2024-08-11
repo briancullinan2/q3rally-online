@@ -1,3 +1,12 @@
+// ------------------------------------------------------------
+// Shaders for Q3Rally Blimp - rewritten by P3rlE
+// based on the blimp.shader from stecki
+// ------------------------------------------------------------
+
+// ------------------------------------------------------------
+// 1.Blimp (green)
+// ------------------------------------------------------------
+
 models/mapobjects/blimp/green
 {
 	{
@@ -7,6 +16,10 @@ models/mapobjects/blimp/green
 	}
 }
 
+// ------------------------------------------------------------
+// 2.Blimp (red)
+// ------------------------------------------------------------
+
 models/mapobjects/blimp/red
 {
 	{
@@ -15,13 +28,23 @@ models/mapobjects/blimp/red
 		rgbGen wave sin .5 .5 0 .5	
 	}
 }
+
+// ------------------------------------------------------------
+// 3.Blimp (blimp01)
+// ------------------------------------------------------------
+
 models/mapobjects/blimp/blimp01
 {
 	{
 		map models/mapobjects/blimp/blimp01.tga
-		rgbGen lightingDiffuse	
+		rgbGen exactVertex
 	}
 }
+
+// ------------------------------------------------------------
+// 4.Blimp (blimp02)
+// ------------------------------------------------------------
+
 models/mapobjects/blimp/blimp02
 {
 	{

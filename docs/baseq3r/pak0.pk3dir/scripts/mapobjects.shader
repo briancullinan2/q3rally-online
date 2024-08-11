@@ -1,3 +1,8 @@
+// ------------------------------------------------------------
+// Shaders for Q3Rally mapobjects - rewritten by P3rlE
+// based on mapobjects.shader from quake3rally
+// ------------------------------------------------------------
+
 //================
 //	watertower	
 //================
@@ -335,4 +340,144 @@ models/mapobjects/spotlamp/spotlamp_l
     map models/mapobjects/spotlamp/spotlamp_l.tga
     rgbGen identity
   }
+}
+
+// ------------------------------------------------------------
+// Trees from q3r_ctf_01
+// ------------------------------------------------------------
+
+models/mapobjects/GR_trees/nadel
+{
+	{
+		map models/mapobjects/GR_trees/nadel.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/GR_trees/nadelsnow
+{
+	{
+		map models/mapobjects/GR_trees/nadelsnow.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/GR_trees/tree
+{
+	{
+		map models/mapobjects/GR_trees/tree.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/GR_trees/tree3
+{
+	{
+		map models/mapobjects/GR_trees/tree3.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/GR_trees/tree4
+{
+	{
+		map models/mapobjects/GR_trees/tree4.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/GR_trees/tree6
+{
+	{
+		map models/mapobjects/GR_trees/tree6.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/oak/oakblaetter
+{
+	{
+		map models/mapobjects/oak/oakblaetter.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/oak/oakblaetter2
+{
+	{
+		map models/mapobjects/oak/oakblaetter2.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/oak/oakblaetter3
+{
+	{
+		map models/mapobjects/oak/oakblaetter3.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+    }
+}
+
+models/mapobjects/carmodels/reaper/main
+{
+	{
+		map models/mapobjects/carmodels/reaper/main.tga
+		rgbGen exactVertex
+	}
+}
+
+models/mapobjects/carmodels/reaper/parts
+{
+	{
+		map models/mapobjects/carmodels/reaper/parts.tga
+		rgbGen exactVertex
+	}
+}
+
+models/mapobjects/carmodels/reaper/tlites
+{
+	{
+		map models/mapobjects/carmodels/reaper/tlites.tga
+		rgbGen exactVertex
+	}
+}
+
+models/mapobjects/carmodels/sidepipe/orange
+{
+	{
+		map models/mapobjects/carmodels/sidepipe/orange.tga
+		rgbGen exactVertex
+	}
+}
+
+models/mapobjects/videocamera/videocamerasupport
+{
+    cull disable
+    surfaceparm alphashadow
+        {
+                map models/mapobjects/videocamera/videocamerasupport.tga
+                alphaFunc GE128
+		depthWrite
+		rgbGen vertex
+        }
+}
+
+models/mapobjects/skel/skel
+{
+    cull disable
+    surfaceparm alphashadow
+	{
+		map models/mapobjects/skel/skel.tga
+		alphaFunc GE128
+		rgbGen exactVertex
+	}
 }

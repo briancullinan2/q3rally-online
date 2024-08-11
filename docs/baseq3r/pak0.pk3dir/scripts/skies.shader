@@ -1,3 +1,12 @@
+// ------------------------------------------------------------
+// Shaders for Q3Rally Skies - rewritten by P3rlE
+// based on the skies and q3r_skies.shader
+// ------------------------------------------------------------
+
+// ------------------------------------------------------------
+// 1.skies (hellsky)
+// ------------------------------------------------------------
+
 textures/skies/hellsky
 {
 	qer_editorimage textures/skies/dimclouds.tga
@@ -17,6 +26,10 @@ textures/skies/hellsky
 	}
 }
 
+// ------------------------------------------------------------
+// 2.skies (nightsky_xian_dm1)
+// ------------------------------------------------------------
+
 textures/skies/nightsky_xian_dm1
 {
 	surfaceparm noimpact
@@ -31,6 +44,10 @@ textures/skies/nightsky_xian_dm1
 	skyparms env/xnight2 - -
 }
 
+// ------------------------------------------------------------
+// 3.skies (nightsky_xian_dm15)
+// ------------------------------------------------------------
+
 textures/skies/nightsky_xian_dm15
 {
 	qer_editorimage textures/skies/xnight2_up.tga
@@ -43,6 +60,10 @@ textures/skies/nightsky_xian_dm15
 
 
 }
+
+// ------------------------------------------------------------
+// 4.skies (kc_dm10sky)
+// ------------------------------------------------------------
 
 textures/skies/kc_dm10sky
 {
@@ -74,6 +95,10 @@ textures/skies/kc_dm10sky
 
 }
 
+// ------------------------------------------------------------
+// 5.skies (trainyard)
+// ------------------------------------------------------------
+
 textures/q3r_skies/env/trainyard/trainyard
 {
 	qer_editorimage textures/q3r_skies/env/trainyard/trainyard_lf.tga
@@ -86,6 +111,10 @@ textures/q3r_skies/env/trainyard/trainyard
 	q3map_sun 1 1 1 32	90 90	
 	skyparms textures/q3r_skies/env/trainyard/trainyard - -
 }
+
+// ------------------------------------------------------------
+// 6.skies (clouds)
+// ------------------------------------------------------------
 
 textures/q3r_skies/clouds
 {
@@ -106,9 +135,13 @@ textures/q3r_skies/clouds
 	}
 }
 
+// ------------------------------------------------------------
+// 7.skies (pjbasesky_arena1_sky)
+// ------------------------------------------------------------
+
 textures/skies/pjbasesky_arena1_sky
 {
-	qer_editorimage textures/skies/pjbasesky.tga
+	qer_editorimage textures/skies/hellsky.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	q3map_globaltexture
@@ -125,13 +158,16 @@ textures/skies/pjbasesky_arena1_sky
 		depthWrite
 	}
 	{
-		map textures/skies/pjbasesky.tga
+		map textures/skies/hellsky.tga
 		blendfunc GL_ONE GL_ONE
 		tcMod scroll -0.01 -0.01
 		tcMod scale 5 5
 	}
 }
 
+// ------------------------------------------------------------
+// 8.skies (mp_us)
+// ------------------------------------------------------------
 
 textures/q3r_skies/env/mp_us/mp_us
 {
@@ -146,6 +182,10 @@ textures/q3r_skies/env/mp_us/mp_us
 	skyparms textures/q3r_skies/env/mp_us/urbansp - -
 }
 
+// ------------------------------------------------------------
+// 9.skies (sincity)
+// ------------------------------------------------------------
+
 textures/q3r_skies/env/sincity/sincity
 {
 	qer_editorimage textures/q3r_skies/env/sincity/sincity_ft.tga
@@ -158,6 +198,10 @@ textures/q3r_skies/env/sincity/sincity
 	q3map_sun 1 1 1 100 0 90
 	skyparms textures/q3r_skies/env/sincity/sincity - -
 }
+
+// ------------------------------------------------------------
+// 10.skies (night01)
+// ------------------------------------------------------------
 
 textures/stecki/night01
 {
@@ -172,6 +216,10 @@ textures/stecki/night01
         skyparms textures/stecki/night01 512 textures/stecki/night01
 
 }
+
+// ------------------------------------------------------------
+// 11.skies (desert)
+// ------------------------------------------------------------
 
 textures/stecki/desert
 {
@@ -188,6 +236,10 @@ textures/stecki/desert
 
 }
 
+// ------------------------------------------------------------
+// 12.skies (sub01)
+// ------------------------------------------------------------
+
 textures/stecki/sub01
 {
 	qer_editorimage textures/stecki/sub01_rt.tga
@@ -203,9 +255,9 @@ textures/stecki/sub01
 
 }
 
-////////////////////////////////////////////
-///	thebigbuu's mkart-map series skyboxes //
-////////////////////////////////////////////
+// ------------------------------------------------------------
+// 13.skies (mkart1)
+// ------------------------------------------------------------
 
 textures/q3r_skies/env/mkart1/mkart1
 {
@@ -220,6 +272,10 @@ textures/q3r_skies/env/mkart1/mkart1
 	skyparms textures/q3r_skies/env/mkart1/mkart1 - -
 }
 
+// ------------------------------------------------------------
+// 14.skies (mkart2)
+// ------------------------------------------------------------
+
 textures/q3r_skies/env/mkart2/mkart2
 {
 	qer_editorimage textures/q3r_skies/env/mkart2/mkart2_ft.tga
@@ -232,6 +288,10 @@ textures/q3r_skies/env/mkart2/mkart2
 	q3map_sun .1 .1 1 100 90 90	
 	skyparms textures/q3r_skies/env/mkart2/mkart2 - -
 }
+
+// ------------------------------------------------------------
+// 15.skies (mkart3)
+// ------------------------------------------------------------
 
 textures/q3r_skies/env/mkart3/mkart3
 {
@@ -246,6 +306,10 @@ textures/q3r_skies/env/mkart3/mkart3
 	skyparms textures/q3r_skies/env/mkart3/mkart3 - -
 }
 
+// ------------------------------------------------------------
+// 16.skies (mkart4)
+// ------------------------------------------------------------
+
 textures/q3r_skies/env/mkart4/mkart4
 {
 	qer_editorimage textures/q3r_skies/env/mkart4/mkart4_ft.tga
@@ -258,6 +322,10 @@ textures/q3r_skies/env/mkart4/mkart4
 	q3map_sun 1 1 1 64 90 90	
 	skyparms textures/q3r_skies/env/mkart4/mkart4 - -
 }
+
+// ------------------------------------------------------------
+// 17.skies (mkart5)
+// ------------------------------------------------------------
 
 textures/q3r_skies/env/mkart5/mkart5
 {
@@ -273,10 +341,9 @@ textures/q3r_skies/env/mkart5/mkart5
 	skyparms textures/q3r_skies/env/mkart5/mkart5 - -
 }
 
-//q3rally ctf skybox, sorry for the NES style look, lol ;
-//NOTICE:red section facing 180deg(_lf = left);
-//blue section facing 0deg(_rt = right);
-//plan accordingly or this next skybox WILL DISORIENT players. --thebigbuu;
+// ------------------------------------------------------------
+// 18.skies (q3r_curtainwide)
+// ------------------------------------------------------------
 
 textures/q3r_skies/env/q3r_curtainwide/q3r_curtainwide
 {
@@ -291,6 +358,10 @@ textures/q3r_skies/env/q3r_curtainwide/q3r_curtainwide
 	skyparms textures/q3r_skies/env/q3r_curtainwide/q3r_curtainwide - -
 }
 
+// ------------------------------------------------------------
+// 19.skies (ame_nebula)
+// ------------------------------------------------------------
+
 textures/q3r_skies/env/ame_nebula
 {
 	qer_editorimage textures/q3r_skies/env/ame_nebula/purplenebula_ft.tga
@@ -299,4 +370,72 @@ textures/q3r_skies/env/ame_nebula
 	q3map_sun 1.00 0.90 1.00 70 90 90
 	q3map_surfacelight 70
 	skyparms textures/q3r_skies/env/ame_nebula/purplenebula - -
+}
+
+textures/skies/ame_nebula
+{
+	qer_editorimage textures/q3r_skies/env/ame_nebula/purplenebula_ft.tga
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	q3map_sun 1.00 0.90 1.00 70 90 90
+	q3map_surfacelight 70
+	skyparms textures/q3r_skies/env/ame_nebula/purplenebula - -
+}
+
+// ------------------------------------------------------------
+// 20.skies (tim_dm3_red)
+// ------------------------------------------------------------
+
+textures/skies/tim_dm3_red
+{
+	qer_editorimage textures/skies/stars_red.tga
+	surfaceparm noimpact
+	surfaceparm nomarks
+	surfaceparm nolightmap
+	surfaceparm sky
+
+	q3map_sun .5 .37 .19 70 30 70
+
+	//q3map_sun 1 .37 .19 70 30 70
+	q3map_surfacelight 80
+	skyparms - 512 -
+
+	//cloudparms 512 full
+	//lightning
+
+	{
+		map textures/skies/killsky_1.tga
+		tcMod scroll 0.05 .1
+		tcMod scale 2 2
+		depthWrite
+	}
+	{
+		map textures/skies/killsky_2.tga
+		blendfunc GL_ONE GL_ONE
+		tcMod scroll 0.05 0.06
+		tcMod scale 3 2
+	}
+}
+
+textures/skies/night_dark
+{
+	qer_editorimage textures/skies/xnight2_up.tga
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	q3map_surfacelight 35
+	q3map_sun 0.545098 0.690196 0.705882 15 319 58
+	skyParms env/xnight2 128 -
+}
+
+textures/vsky/vsky
+{
+	qer_editorimage textures/vsky/vsky_up.jpg
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	q3map_lightsubdivide 128
+	q3map_surfacelight 100
+	q3map_globaltexture
+	
+	q3map_sun 0.980392 0.67451 0.372549 100 334 57
+	skyparms textures/vsky/vsky - -
 }
